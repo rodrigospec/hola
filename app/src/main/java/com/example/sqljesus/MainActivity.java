@@ -1,4 +1,5 @@
 package com.example.sqljesus;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
