@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
+    puto
     EditText txtRFC, txtNombre, txtCorreo, txtTelefono, txtDireccion, txtCiudad;
     TextView tvRFC, tvNombre, tvCorreo, tvTelefono, tvDireccion, tvCiudad;
     public static final String N_BASE = "BDClientes";
