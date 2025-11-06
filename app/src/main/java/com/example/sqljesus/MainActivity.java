@@ -4,13 +4,12 @@ import android.os.Bundle;
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
-    EditText txtRFC,puto, txtNombre, txtCorreo, txtTelefono, txtDireccion, txtCiudad;
+    EditText txtRFC, txtNombre, txtCorreo, txtTelefono, txtDireccion, txtCiudad;
     TextView tvRFC, tvNombre, tvCorreo, tvTelefono, tvDireccion, tvCiudad;
     public static final String N_BASE = "BDClientes";
     public static final String N_TABLA = "cliente";
